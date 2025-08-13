@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <div
         className="relative size-52 mx-auto rounded"
-        style={{ ["--r" as any]: `${radius}px`, ["--dur" as any]: "12s" }}
+        style={{ ["--r" as string]: `${radius}px`, ["--dur" as string]: "12s" }}
       >
         <div
           className="absolute inset-0 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
@@ -67,7 +67,7 @@ export default function Home() {
               absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
               rotate-[var(--a)]
             "
-              style={{ ["--a" as any]: `${a}deg` }}
+              style={{ ["--a" as string]: `${a}deg` }}
             >
               <img
                 src={iconsList[index].src}

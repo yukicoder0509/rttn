@@ -1,4 +1,4 @@
-# React + TypeScript + Tailwind CSS + Navigation + Vite
+# React + TypeScript + Tailwind CSS + Navigation
 
 rttn — A blazing-fast Vite starter kit with React, TypeScript, Tailwind CSS, and React Router. Preconfigured for modern frontend development, rttn gives you a clean, minimal, and opinionated setup so you can skip boilerplate and focus on building.
 
